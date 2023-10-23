@@ -25,11 +25,11 @@ else:
 
 #Q3: Check if string is a number or float:
 
-number1 = input("Enter a word or a number:")
-def float_check(number1):
+number = input("Enter a word or a number:")
+def float_check(number):
     try:
-        float(number1)
+        float(number)
         return True
     except:
         return False
-print(float_check(number1))
+print(float_check(number))
